@@ -1,0 +1,141 @@
+{
+  "$schema": "https://docs.anthropic.com/claude-code/schema/settings.json",
+  "description": "Claude Code Speedrungg configuration v1.0",
+  "hooks": {
+    "SessionStart": [
+      { "command": "bash .claude/hooks/session-start.sh" },
+      { "command": "bash .claude/hooks/detect-gaps.sh" }
+    ],
+    "SessionStop": [
+      { "command": "bash .claude/hooks/session-stop.sh" }
+    ],
+    "PreCompact": [
+      { "command": "bash .claude/hooks/pre-compact-checkpoint.sh" }
+    ],
+    "SubagentStop": [
+      { "command": "bash .claude/hooks/subagent-stop-summary.sh" }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": { "tool": "Bash", "pattern": "^git commit" },
+        "command": "bash .claude/hooks/validate-commit.sh"
+      },
+      {
+        "matcher": { "tool": "Write", "pattern": "^assets/" },
+        "command": "bash .claude/hooks/validate-assets.sh"
+      },
+      {
+        "matcher": { "tool": "Bash", "pattern": "(npm install|npm add|claude install|skill install|mcp install)" },
+        "command": "bash .claude/hooks/pre-install-audit.sh"
+      }
+    ],
+    "AgentSpawn": [
+      { "command": "bash .claude/hooks/log-agent.sh" }
+    ]
+  },
+  "permissions": {
+    "allow": [
+      "Bash(git status)",
+      "Bash(git diff*)",
+      "Bash(git log*)",
+      "Bash(git branch*)",
+      "Bash(git add*)",
+      "Bash(git commit*)",
+      "Bash(git checkout*)",
+      "Bash(git stash*)",
+      "Bash(npm test)",
+      "Bash(npm run test:*)",
+      "Bash(npm run lint)",
+      "Bash(npm run build)",
+      "Bash(npm run dev)",
+      "Bash(npm install*)",
+      "Bash(npm audit*)",
+      "Bash(npx *)",
+      "Read(*)",
+      "Write(src/**)",
+      "Write(assets/**)",
+      "Write(design/**)",
+      "Write(docs/**)",
+      "Write(tests/**)",
+      "Write(tools/**)",
+      "Write(prototypes/**)",
+      "Write(production/**)",
+      "Edit(src/**)",
+      "Edit(assets/**)",
+      "Edit(design/**)",
+      "Edit(docs/**)",
+      "Edit(tests/**)",
+      "Edit(tools/**)"
+    ],
+    "deny": [
+      "Bash(git push --force*)",
+      "Bash(git push -f*)",
+      "Bash(git reset --hard*)",
+      "Bash(rm -rf /*)",
+      "Bash(rm -rf ~*)",
+      "Bash(curl * | bash)",
+      "Bash(wget * | bash)",
+      "Read(.env)",
+      "Read(.env.*)",
+      "Read(**/*.pem)",
+      "Read(**/*.key)",
+      "Read(**/id_rsa)",
+      "Write(.env)",
+      "Write(.env.*)"
+    ]
+  },
+  "modelTiering": {
+    "comment": "Per-agent model preference declared in agent frontmatter (model: opus|sonnet|haiku). This block documents the policy.",
+    "tier1Vision": "opus",
+    "tier2Leads": "sonnet",
+    "tier3Specialists": "sonnet",
+    "researchHub": {
+      "director": "opus",
+      "analysts": "sonnet"
+    },
+    "highVolumeRoles": {
+      "qa-tester": "haiku",
+      "analytics-engineer": "haiku"
+    },
+    "forkedSubagents": [
+      "qa-tester",
+      "performance-analyst",
+      "security-engineer"
+    ],
+    "envVarHint": "CLAUDE_CODE_FORK_SUBAGENT=1 for forked-context subagents (large log generation)"
+  },
+  "hardCaps": {
+    "maxRetrievalCycles": 3,
+    "maxToolRetries": 3,
+    "maxReverseEscalationHops": 2,
+    "contextWarnAt": 0.70,
+    "contextCompactAt": 0.85,
+    "contextClearAt": 0.90
+  },
+  "budgets": {
+    "bundleGzipKb": 300,
+    "totalJsGzipKb": 1024,
+    "memoryMb": 256,
+    "fpsFloor": 60,
+    "fpsFloorMobile": 30,
+    "firstInteractiveMs": 2000,
+    "ttiTargetPokiMs": 2000,
+    "initialBundleMaxKb": 2048
+  },
+  "verification": {
+    "comment": "Required artifacts for any 'completed' claim.",
+    "codeChanges": ["tests pass", "new tests for new behavior"],
+    "uiChanges": ["Playwright screenshot or equivalent"],
+    "perfChanges": ["Lighthouse before/after", "LoAF measurement if applicable"],
+    "securityChanges": ["npm audit --production passing"],
+    "a11yChanges": ["axe-core scan", "manual keyboard pass"]
+  },
+  "compliance": {
+    "accessibilityBaseline": ["WCAG-2.1-AA", "GAG-basic"],
+    "regional": {
+      "EU": "EAA baseline (see eaa-baseline skill); micro-enterprise carve-out for solo devs",
+      "US": "CVAA for chat features (see cvaa-communications skill)"
+    },
+    "watchList": ["digital-fairness-act"]
+  }
+}

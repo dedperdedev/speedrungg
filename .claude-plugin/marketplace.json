@@ -1,0 +1,30 @@
+{
+  "name": "speedrungg-marketplace",
+  "owner": {
+    "name": "Speedrungg"
+  },
+  "metadata": {
+    "description": "Marketplace for the Speedrungg plugin — a two-studio AI team for browser game development.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "speedrungg",
+      "source": {
+        "source": "github",
+        "repo": "your-org/speedrungg"
+      },
+      "version": "1.0.0",
+      "description": "Two-studio AI team for browser game development. 44 agents, 62 skills, 26 commands, 9 hooks, 8 MCP integrations.",
+      "category": "game-development",
+      "keywords": [
+        "game-development",
+        "browser-games",
+        "indie-games",
+        "multi-agent",
+        "speedrun"
+      ],
+      "homepage": "https://github.com/your-org/speedrungg"
+    }
+  ]
+}

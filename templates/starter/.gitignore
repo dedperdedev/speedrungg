@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build output
+dist/
+build/
+.parcel-cache/
+.vite/
+.next/
+.cache/
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Claude Code session state (regenerable)
+production/session-state/*.log
+production/session-state/*.tmp
+!production/session-state/.gitkeep
+
+# Asset caches
+assets/.cache/
+*.atlas.json.tmp
+
+# Temporary
+tmp/
+temp/

@@ -1,0 +1,126 @@
+{
+  "$schema": "https://docs.anthropic.com/claude-code/schema/mcp.json",
+  "comment": "MCP server registry for Speedrungg. None enabled by default — user opts in. Each entry documents what the server provides and security posture. Run .claude/hooks/pre-install-audit.sh before enabling.",
+
+  "servers": {
+    "phaser-editor": {
+      "comment": "Phaser MCP server (Jan 2026, official) — direct integration with Phaser Editor v5",
+      "command": "npx",
+      "args": ["-y", "@phaserjs/phaser-editor-mcp@latest"],
+      "enabled": false,
+      "trustLevel": "first-party",
+      "useFor": ["scene editing", "sprite management", "animation"],
+      "skillReference": "phaser-mcp-workflow",
+      "audit": "Verify package signature matches @phaserjs scope before enabling"
+    },
+
+    "playwright": {
+      "comment": "Browser automation for QA verification — used by qa-tester agent for screenshot proofs",
+      "command": "npx",
+      "args": ["-y", "@playwright/mcp@latest"],
+      "enabled": false,
+      "trustLevel": "first-party",
+      "useFor": ["screenshot verification", "automated UI testing", "cross-browser checks"],
+      "skillReference": "playwright-mcp-workflow",
+      "audit": "Microsoft-maintained; trust level high"
+    },
+
+    "github": {
+      "comment": "GitHub integration for issue-driven workflows + repo management",
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "enabled": false,
+      "trustLevel": "first-party",
+      "useFor": ["issue management", "PR review", "code search", "release tagging", "milestone tracking"],
+      "skillReference": "github-mcp-workflow",
+      "envHint": "Requires GITHUB_PERSONAL_ACCESS_TOKEN with repo scope; never commit token",
+      "audit": "Anthropic / MCP reference servers; trust level high"
+    },
+
+    "sentry": {
+      "comment": "Error tracking integration — used by analytics-engineer for production triage",
+      "command": "npx",
+      "args": ["-y", "@sentry/mcp@latest"],
+      "enabled": false,
+      "trustLevel": "vendor",
+      "useFor": ["error log scanning", "regression triage"],
+      "audit": "Sentry-official; check version against current"
+    },
+
+    "clickup": {
+      "comment": "ClickUp task management — used by project-manager for backlog/sprint sync",
+      "command": "npx",
+      "args": ["-y", "@hauptsache.net/clickup-mcp"],
+      "enabled": false,
+      "trustLevel": "third-party",
+      "useFor": ["task creation", "sprint sync", "status updates", "time tracking", "comment threading"],
+      "skillReference": "clickup-mcp-workflow",
+      "envHint": "Requires CLICKUP_API_TOKEN + CLICKUP_TEAM_ID; rotate tokens monthly",
+      "audit": "Third-party MCP server. Verify package source before enabling. Pin version. Run pre-install-audit. Alternative: write your own minimal MCP client against ClickUp API v2 if security posture matters more than convenience."
+    },
+
+    "obsidian": {
+      "comment": "Obsidian vault integration — used by writer, game-designer, research-analyst for design docs and zettelkasten-style notes",
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "/path/to/your/vault"],
+      "enabled": false,
+      "trustLevel": "first-party-with-config",
+      "useFor": ["read-only browsing of GDD notes", "linking design decisions to research notes", "zettelkasten lookup", "writing devlog drafts"],
+      "skillReference": "obsidian-mcp-workflow",
+      "envHint": "Use the official MCP filesystem server pointed at your Obsidian vault. Read-only mode recommended; don't let the agent edit your vault directly without clear scope.",
+      "alternativeServers": [
+        "@takuya0301/mcp-obsidian (uses Obsidian's Local REST API plugin; bidirectional)"
+      ],
+      "audit": "Filesystem MCP is Anthropic-reference. Third-party Obsidian-specific servers vary in quality; vet carefully."
+    },
+
+    "notion": {
+      "comment": "Notion integration — alternative to Obsidian for users who live in Notion. Used by project-manager + research-analyst",
+      "command": "npx",
+      "args": ["-y", "@notionhq/notion-mcp-server"],
+      "enabled": false,
+      "trustLevel": "first-party",
+      "useFor": ["page browsing", "database query", "task creation", "research note storage"],
+      "skillReference": "notion-mcp-workflow",
+      "envHint": "Requires Notion integration token; share specific pages/databases, not entire workspace",
+      "audit": "Notion-official MCP server"
+    },
+
+    "figma": {
+      "comment": "Figma integration — used by ux-designer, art-director for design-to-code workflows",
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-figma"],
+      "enabled": false,
+      "trustLevel": "vendor",
+      "useFor": ["read Figma designs", "extract design tokens", "convert frames to code scaffolds"],
+      "skillReference": "figma-mcp-workflow",
+      "envHint": "Requires FIGMA_PERSONAL_ACCESS_TOKEN with file:read scope",
+      "alternativeServers": [
+        "@figma/code-connect-mcp (official Figma; Code Connect-specific)",
+        "GLips/Figma-Context-MCP (community; broad capability)"
+      ],
+      "audit": "Multiple Figma MCP options exist; pick based on needs (design tokens vs full file access)"
+    }
+  },
+
+  "policy": {
+    "preInstallAudit": "Always run .claude/hooks/pre-install-audit.sh before enabling a new server",
+    "versionPinning": "Pin to specific versions in production; never @latest for security-sensitive servers",
+    "permissions": "Each enabled server requires explicit user approval via /mcp command",
+    "supplyChainNote": "655 malicious skills found in early 2026. Treat MCP servers with same caution: vet, audit, pin, monitor.",
+    "tokenManagement": [
+      "Store all tokens in .env or system keychain — NEVER commit",
+      "Rotate tokens at least quarterly",
+      "Use minimum-scope tokens (read-only when possible)",
+      "Revoke tokens immediately if a teammate leaves or device is compromised"
+    ]
+  },
+
+  "configurationGuide": {
+    "step1_choose": "Pick which integrations matter to you. Don't enable everything — each adds attack surface.",
+    "step2_install": "npx the package directly first; verify it runs. Then add to settings.json mcpServers.",
+    "step3_authenticate": "Set required env vars in .env (gitignored)",
+    "step4_test": "Use /mcp command in Claude Code to verify connection",
+    "step5_document": "Add to your project's onboarding doc which MCP servers are required"
+  }
+}

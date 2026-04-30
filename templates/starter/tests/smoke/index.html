@@ -1,0 +1,24 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Smoke</title></head>
+<body>
+<h1>Smoke test</h1>
+<p>Open the browser console. Expect: store dispatched, loop ticked, no errors.</p>
+<canvas id="game" width="640" height="360" tabindex="0"></canvas>
+<script type="module">
+  import { createStore } from '../../src/core/store.js';
+  import { createGameLoop } from '../../src/core/game-loop.js';
+  const store = createStore({ ticks: 0 }, (s, e) => e.type === 'TICK' ? { ticks: s.ticks + 1 } : s);
+  const loop = createGameLoop({
+    simulationHz: 60,
+    onTick: (dt) => store.dispatch({ type: 'TICK', payload: { dt } }),
+    onRender: () => {},
+  });
+  loop.start();
+  setTimeout(() => {
+    loop.stop();
+    console.log('smoke: ticks after 1s =', store.getState().ticks, '(expected ~60)');
+    const ok = store.getState().ticks >= 50;
+    document.body.style.background = ok ? '#0f0' : '#f00';
+  }, 1000);
+</script>
+</body></html>

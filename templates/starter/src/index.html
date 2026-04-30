@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="color-scheme" content="dark light" />
+    <title>Speedrungg — Starter</title>
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta name="theme-color" content="#0b0b0f" />
+    <style>
+      :root { color-scheme: dark; }
+      html, body { margin: 0; height: 100%; background: #0b0b0f; color: #e8e8f0; font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
+      #app { position: fixed; inset: 0; display: grid; place-items: center; }
+      #game { width: min(100vw, 100dvh * 16 / 9); aspect-ratio: 16 / 9; max-height: 100dvh; background: #000; touch-action: none; }
+      .loading { font-size: 14px; opacity: 0.7; }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <canvas id="game" tabindex="0" aria-label="Game canvas"></canvas>
+      <div class="loading" id="loading" role="status" aria-live="polite">Loading…</div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
