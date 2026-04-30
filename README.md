@@ -82,6 +82,38 @@ Or if you want just the AI team without starter code, skip step 2.
 - **Vanilla Canvas / WebGL** for size-constrained
 - **Web platform** (HTML/CSS/SVG/DOM) for non-canvas games
 
+## How the studio thinks
+
+### Two studios, one session — and why they're separated
+
+The Research Hub is **not a department of the main studio**. Research and development have different rhythms (sprints vs longitudinal monitoring), different fail-modes (shipping the wrong thing vs biased findings), and different ethics (serving the product vs serving the truth). Mixing them breaks both. So: parallel mini-studios, peer directors, escalation through leadership, never direct.
+
+### How market, competitor, uniqueness, and monetization work
+
+Earlier studio templates refused to touch these because the model bluffs. Speedrungg has agents for each, but with hard guardrails:
+
+- **`market-analyst`** — structures market knowledge; doesn't invent stats; sources every claim; asks the user first.
+- **`competitor-analyst`** — analyzes competitors the user names (or web-search finds); never invents sentiment; always cites.
+- **`creative-strategist`** — runs the Uniqueness Interview; excavates the user's voice instead of inventing it.
+- **`monetization-strategist`** — knows the *shape* of every model; refuses to claim current rates; refuses dark patterns.
+- **`marketing-lead`**, **`community-manager`**, **`growth-marketer`** — strategy, voice, conversion. None of them post on the user's behalf — only draft.
+
+### Calibration is mandatory
+
+Every non-trivial claim wears two labels: confidence (`[CONFIRMED]`/`[LIKELY]`/`[UNCERTAIN]`) + source (`[USER]`/`[EVIDENCE]`/`[HYPOTHESIS]`/`[PATTERN]`/`[UNKNOWN]`). Unlabeled = fake confidence. The `calibration-vocabulary` skill is the binding reference.
+
+### Humans still own (this is forever)
+
+Final creative calls when two good options are both valid · ethical/tonal red lines · personal voice · whether to trust a piece of evidence · what "good enough" means.
+
+## Cost notes
+
+- The studio caches the system prompt + tool definitions + path-scoped rules on every call (cache reads ~10% of standard input rate).
+- Overnight async work (competitor watch, market scanning) can use the Batch API for 50% off.
+- 1M context window is now standard pricing on Opus 4.6 / Sonnet 4.6 / Opus 4.7 — no long-context surcharge.
+- **Opus 4.7 tokenizer warning:** up to 35% more tokens for the same text vs prior models — real cost rises even though the sticker price is unchanged.
+- Hard caps (`hardCaps` block in `settings.example.json`) are what actually bound runaway sessions. Merge them into `~/.claude/settings.json` to enforce.
+
 ## Why "Speedrungg"?
 
 Two gaming references in one name:
