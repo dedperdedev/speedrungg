@@ -10,7 +10,7 @@
   "plugins": [
     {
       "name": "speedrungg",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Two-studio AI team for browser game development. 44 agents, 62 skills, 26 commands, 9 hooks, 8 MCP integrations.",
       "category": "game-development",
       "keywords": [

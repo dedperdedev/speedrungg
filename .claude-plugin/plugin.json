@@ -1,6 +1,6 @@
 {
   "name": "speedrungg",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Two-studio AI team for browser game development. 44 agents, 62 knowledge skills, 26 slash commands, 9 hooks, 8 MCP integrations. Supports Phaser 4, PixiJS v8, Three.js r170+, Babylon.js 8, vanilla canvas, and the web platform.",
   "author": {
     "name": "Speedrungg"
