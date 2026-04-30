@@ -1,0 +1,24 @@
+{
+  "$schema": "https://docs.anthropic.com/claude-code/schema/settings.json",
+  "_comment": "Speedrungg recommended user-level settings. Merge into ~/.claude/settings.json. Caps and forking flags are what actually save tokens; permissions are the auto-allow list the studio uses.",
+  "env": {
+    "CLAUDE_CODE_FORK_SUBAGENT": "1"
+  },
+  "hardCaps": {
+    "maxRetrievalCycles": 3,
+    "maxToolRetries": 3,
+    "maxReverseEscalationHops": 2,
+    "contextWarnAt": 0.70,
+    "contextCompactAt": 0.85,
+    "contextClearAt": 0.90
+  },
+  "modelTiering": {
+    "tier1Vision": "opus",
+    "tier2Leads": "sonnet",
+    "tier3Specialists": "sonnet",
+    "highVolumeRoles": {
+      "qa-tester": "haiku",
+      "analytics-engineer": "haiku"
+    }
+  }
+}

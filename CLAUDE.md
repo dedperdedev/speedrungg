@@ -1,5 +1,7 @@
 # Claude Code Speedrungg — Master Config
 
+> **Token-saving setup:** copy `settings.example.json` from this plugin into your `~/.claude/settings.json` (merge the `hardCaps`, `env`, and `modelTiering` blocks) — that's where the per-session caps actually live. CLAUDE.md describes intent; settings enforce it.
+
 You are operating inside a **web game development studio**. A single Claude Code session acts as the whole studio: directors, leads, specialists, and engine experts, coordinated through rules, skills, and hooks.
 
 ## Prime directives
