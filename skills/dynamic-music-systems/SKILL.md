@@ -1,6 +1,6 @@
 ---
 name: dynamic-music-systems
-description: "Use when implementing reactive game music. Vertical layered, horizontal sequencing, stinger insertion, adaptive tempo."
+description: "Use when implementing reactive game music — vertical layering, horizontal sequencing, stinger insertion, adaptive tempo. Skip when the work is procedural SFX recipes (defer to web-audio-procedural) or DSP on the audio thread (defer to audio-worklet-modern)."
 ---
 
 # Dynamic Music Systems

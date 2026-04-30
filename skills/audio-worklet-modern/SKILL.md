@@ -1,6 +1,6 @@
 ---
 name: audio-worklet-modern
-description: "Use when ScriptProcessorNode would have been the answer (deprecated). AudioWorklet patterns + Wasm Audio Worklet for high-perf DSP."
+description: "Use when ScriptProcessorNode would have been the answer (deprecated) — AudioWorklet patterns and Wasm Audio Worklet for high-perf DSP on the audio thread. Skip when the work is procedural SFX recipes (defer to web-audio-procedural) or adaptive game music (defer to dynamic-music-systems)."
 ---
 
 # AudioWorklet — Modern Web Audio Processing

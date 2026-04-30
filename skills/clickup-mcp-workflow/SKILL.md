@@ -1,6 +1,6 @@
 ---
 name: clickup-mcp-workflow
-description: "Use when integrating with ClickUp via MCP for task / sprint management. Setup, sync patterns, agent workflows, bidirectional sync discipline."
+description: "Use when integrating with ClickUp via MCP for task / sprint management — setup, sync patterns, agent workflows, bidirectional sync discipline. Skip when task tracking lives in GitHub Issues (defer to github-mcp-workflow), Notion (defer to notion-mcp-workflow), or design notes/zettelkasten (defer to obsidian-mcp-workflow)."
 ---
 
 # ClickUp MCP Workflow

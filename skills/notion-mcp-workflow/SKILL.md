@@ -1,6 +1,6 @@
 ---
 name: notion-mcp-workflow
-description: "Use when integrating with Notion via MCP for tasks AND notes in one tool. Setup, database schemas matching template calibration, scope."
+description: "Use when integrating with Notion via MCP for tasks AND notes in one tool — setup, database schemas matching template calibration, scope. Skip when task tracking lives in ClickUp (defer to clickup-mcp-workflow) or GitHub Issues (defer to github-mcp-workflow), or when the workflow is design notes / zettelkasten only (defer to obsidian-mcp-workflow)."
 ---
 
 # Notion MCP Workflow

@@ -1,6 +1,6 @@
 ---
 name: flow-state-design
-description: "Use when calibrating game difficulty, challenge curves, or session pacing. Csikszentmihalyi flow theory adapted to games with operational checklists and difficulty curve patterns."
+description: "Use when calibrating game difficulty, challenge curves, or session pacing — Csikszentmihalyi flow theory adapted to games with operational checklists. Skip when the work is concrete difficulty-level / mercy mechanics (defer to difficulty-and-mercy), XP/level growth-curve tuning (defer to progression-curves), or cozy / low-stakes design (defer to cozy-game-design)."
 ---
 
 # Flow State Design

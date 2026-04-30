@@ -1,6 +1,6 @@
 ---
 name: thematic-coding
-description: "Use when analyzing playtest transcripts or interview data. Open coding → themes → counts → representative quotes; bias guards."
+description: "Use when analyzing playtest transcripts or interview data — open coding → themes → counts → representative quotes, with bias guards. Skip when the work is collecting the data via interviews (defer to interview-protocols), interpreting numerical results (defer to statistical-floor), or naming missing-dropouts bias (defer to survivorship-bias)."
 ---
 
 # Thematic Coding — Analyzing Interview Transcripts

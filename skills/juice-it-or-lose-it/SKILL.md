@@ -1,6 +1,6 @@
 ---
 name: juice-it-or-lose-it
-description: "Use when adding game-feel polish. Jonasson + Purho juice patterns: visual, audio, haptic, procedural feedback layers with clarity test."
+description: "Use when adding game-feel polish — Jonasson + Purho juice patterns across visual, audio, haptic, procedural feedback layers with a clarity test. Skip when the work is the juice/clarity tradeoff budget itself (defer to juice-vs-clarity), HUD visual hierarchy (defer to refactoring-ui-principles), or menu/scene transitions (defer to view-transitions-game-ui)."
 ---
 
 # Juice It or Lose It — Game Feel

@@ -1,6 +1,6 @@
 ---
 name: interview-protocols
-description: "Use when interviewing audiences, playtesters, or the project owner. Open-ended questions, 5-whys drilling, follow-up patterns, anti-leading."
+description: "Use when interviewing audiences, playtesters, or the project owner — open-ended questions, 5-whys drilling, follow-up patterns, anti-leading. Skip when the work is coding the resulting transcripts (defer to thematic-coding), interpreting numerical results (defer to statistical-floor / survivorship-bias), or framing the audience job (defer to jobs-to-be-done)."
 ---
 
 # Interview Protocols — Open-Ended Questions

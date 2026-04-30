@@ -1,6 +1,6 @@
 ---
 name: object-pooling
-description: "Use when allocation in tight loops causes GC pauses (bullets, particles, damage numbers). Pooling pattern with common bugs and web-game specifics."
+description: "Use when allocation in tight loops causes GC pauses (bullets, particles, damage numbers) — pooling pattern with common bugs and web-game specifics. Skip when the jank is render-pipeline / layout (defer to critical-rendering-path), perf budgeting in general (defer to rail-model), or measuring frame stalls in production (defer to loaf-instrumentation)."
 ---
 
 # Object Pooling — Web Game Specific

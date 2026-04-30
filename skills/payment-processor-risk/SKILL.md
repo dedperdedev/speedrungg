@@ -1,6 +1,6 @@
 ---
 name: payment-processor-risk
-description: "Use when planning distribution and revenue. itch.io 2025 case study; diversification discipline; what to do if payouts freeze."
+description: "Use when planning distribution and revenue — itch.io 2025 case study, diversification discipline, what to do if payouts freeze. Skip when the question is which portal to ship on (defer to web-game-portal-comparison), monetization ethics (defer to monetization-ethical-floor), or EU regulatory horizon (defer to digital-fairness-act-watch)."
 ---
 
 # Payment Processor Risk

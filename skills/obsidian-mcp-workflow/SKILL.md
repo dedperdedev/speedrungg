@@ -1,6 +1,6 @@
 ---
 name: obsidian-mcp-workflow
-description: "Use when integrating with an Obsidian vault via MCP for design notes / research / zettelkasten. Setup, vault structure, scope/privacy."
+description: "Use when integrating with an Obsidian vault via MCP for design notes / research / zettelkasten — setup, vault structure, scope/privacy. Skip when the integration is task/sprint tracking (defer to clickup-mcp-workflow / github-mcp-workflow / notion-mcp-workflow) or design-to-code asset extraction (defer to figma-mcp-workflow)."
 ---
 
 # Obsidian MCP Workflow

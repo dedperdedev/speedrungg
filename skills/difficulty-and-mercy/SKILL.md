@@ -1,6 +1,6 @@
 ---
 name: difficulty-and-mercy
-description: "Use when designing difficulty levels, mercy mechanics, or assist features. Includes 2024-2025 DDA skepticism — be cautious about dynamic difficulty adjustment."
+description: "Use when designing difficulty levels, mercy mechanics, or assist features — includes 2024-2025 DDA skepticism on dynamic difficulty adjustment. Skip when the question is challenge/skill flow calibration (defer to flow-state-design), progression-curve tuning (defer to progression-curves), or accessibility-driven assist (defer to wcag-game-checklist or gameaccessibilityguidelines)."
 ---
 
 # Difficulty Curves and Mercy Mechanics

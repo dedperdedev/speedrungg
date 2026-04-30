@@ -1,6 +1,6 @@
 ---
 name: critical-rendering-path
-description: "Use when diagnosing render performance issues. Browser rendering pipeline: what triggers Layout vs Paint vs Composite; layout-thrash patterns."
+description: "Use when diagnosing render performance issues — browser rendering pipeline (what triggers Layout vs Paint vs Composite) and layout-thrash patterns. Skip when the work is bundle/load-time budgets (defer to bundle-budget-strategy), main-thread frame jank measurement (defer to loaf-instrumentation/long-animation-frames), or perf budget thresholds (defer to rail-model)."
 ---
 
 # Critical Rendering Path

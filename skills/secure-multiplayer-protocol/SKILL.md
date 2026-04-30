@@ -1,6 +1,6 @@
 ---
 name: secure-multiplayer-protocol
-description: "Use when designing multiplayer or leaderboard protocols. Server-authoritative, schema validation, rate limiting, replay verification."
+description: "Use when designing multiplayer or leaderboard protocols — server-authoritative, schema validation, rate limiting, replay verification. Skip when the work is single-player simulation loop (defer to deterministic-game-loop), broader threat modelling (defer to owasp-top-10-for-games), or supply-chain hygiene (defer to web-game-supply-chain)."
 ---
 
 # Secure Multiplayer Protocol Design

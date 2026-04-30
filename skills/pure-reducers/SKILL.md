@@ -1,6 +1,6 @@
 ---
 name: pure-reducers
-description: "Use when writing or reviewing gameplay reducers. Pure function discipline: same input same output, no side effects, no mutation, no async."
+description: "Use when writing or reviewing gameplay reducers — pure-function discipline: same input same output, no side effects, no mutation, no async. Skip when the work is the surrounding store/event-log architecture (defer to mutable-udf-store) or fixed-timestep simulation loop (defer to deterministic-game-loop)."
 ---
 
 # Pure Reducers — The Discipline

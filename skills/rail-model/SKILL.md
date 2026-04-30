@@ -1,6 +1,6 @@
 ---
 name: rail-model
-description: "Use when setting performance budgets. RAIL model: Response < 100ms, Animation < 16ms, Idle ≤ 50ms, Load < 5s on 3G."
+description: "Use when setting performance budgets — RAIL model: Response < 100ms, Animation < 16ms, Idle ≤ 50ms, Load < 5s on 3G. Skip when the budget is bundle size / asset payload (defer to bundle-budget-strategy), measuring frame stalls in production (defer to loaf-instrumentation), or render-pipeline causes (defer to critical-rendering-path)."
 ---
 
 # RAIL Model — Web Performance Budgets

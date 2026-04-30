@@ -1,6 +1,6 @@
 ---
 name: view-transitions-game-ui
-description: "Use when implementing menu transitions, scene swaps, or HUD state changes. Native View Transitions API patterns; replaces hand-rolled CSS animation."
+description: "Use when implementing menu transitions, scene swaps, or HUD state changes — native View Transitions API patterns that replace hand-rolled CSS animation. Skip when the work is gameplay feedback / juice polish (defer to juice-it-or-lose-it / juice-vs-clarity) or static HUD visual hierarchy (defer to refactoring-ui-principles)."
 ---
 
 # View Transitions API — Game UI

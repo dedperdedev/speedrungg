@@ -1,6 +1,6 @@
 ---
 name: economy-source-sink
-description: "Use when designing virtual economies, currencies, or resource flows. Source-sink theory for stable economies; inflation/deflation diagnosis; multi-currency design."
+description: "Use when designing virtual economies, currencies, or resource flows — source-sink theory for stable economies, inflation/deflation diagnosis, multi-currency design. Skip when the work is XP/level growth-curve tuning (defer to progression-curves), broader feedback-loop modelling (defer to systems-thinking-loops), or monetization ethics (defer to monetization-ethical-floor)."
 ---
 
 # Source-Sink Theory — Virtual Economies

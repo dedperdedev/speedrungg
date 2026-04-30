@@ -1,6 +1,6 @@
 ---
 name: digital-fairness-act-watch
-description: "Use when designing monetization or engagement mechanics. EU Digital Fairness Act forward-looking constraints: loot box ban for minors, dark patterns."
+description: "Use when designing monetization or engagement mechanics under EU Digital Fairness Act forward-looking constraints — loot-box ban for minors, dark patterns. Skip when the question is studio-internal monetization hard-rules (defer to monetization-ethical-floor), payment-processor risk (defer to payment-processor-risk), or behavioural-bias framing (defer to behavioral-economics-for-games)."
 ---
 
 # Digital Fairness Act — Watch List

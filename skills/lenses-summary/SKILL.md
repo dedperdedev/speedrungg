@@ -1,6 +1,6 @@
 ---
 name: lenses-summary
-description: "Use during /design-review for design critique. Curated subset of Schell deck of lenses (L4 Surprise, L7 Endogenous Value, L33 Meaningful Choices, etc.) for focused review."
+description: "Use during /design-review for design critique — curated subset of Schell deck of lenses (L4 Surprise, L7 Endogenous Value, L33 Meaningful Choices, etc.). Skip when the question is mechanic→aesthetic decomposition (defer to mda-framework), choice-anatomy specifically (defer to costikyan-choice-taxonomy), or feedback-loop modelling (defer to systems-thinking-loops)."
 ---
 
 # Schell's Lenses — Curated Subset

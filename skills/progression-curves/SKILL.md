@@ -1,6 +1,6 @@
 ---
 name: progression-curves
-description: "Use when tuning XP, gold, levels, or any growth curve. Linear vs exponential vs logistic curves with selection cheat sheet by game type."
+description: "Use when tuning XP, gold, levels, or any growth curve — linear vs exponential vs logistic curves with selection cheat sheet by game type. Skip when the work is virtual-economy source/sink balance (defer to economy-source-sink), challenge/skill flow calibration (defer to flow-state-design), or difficulty/mercy mechanics (defer to difficulty-and-mercy)."
 ---
 
 # Progression Curves — Linear, Exponential, Logistic

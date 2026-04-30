@@ -1,6 +1,6 @@
 ---
 name: mda-framework
-description: "Use when designing or reviewing a game mechanic. The Mechanics-Dynamics-Aesthetics framework separates what the designer builds from what the player feels."
+description: "Use when designing or reviewing a game mechanic — the Mechanics-Dynamics-Aesthetics framework separating what the designer builds from what the player feels. Skip when the question is choice-anatomy specifically (defer to costikyan-choice-taxonomy), full design-critique lenses (defer to lenses-summary), or what-kind-of-fun targeting (defer to four-types-of-fun)."
 ---
 
 # MDA Framework — Mechanics, Dynamics, Aesthetics

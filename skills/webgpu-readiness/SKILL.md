@@ -1,6 +1,6 @@
 ---
 name: webgpu-readiness
-description: "Use when choosing renderer (WebGL vs WebGPU). Per-engine decision framework; benchmarking discipline; WebGPU is not always faster."
+description: "Use when choosing renderer (WebGL vs WebGPU) — per-engine decision framework, benchmarking discipline, WebGPU is not always faster. Skip when the work is render-pipeline jank diagnosis (defer to critical-rendering-path), bundle/load budgets (defer to bundle-budget-strategy), or RAIL perf thresholds (defer to rail-model)."
 ---
 
 # WebGPU Readiness — Per-Engine Decision Framework

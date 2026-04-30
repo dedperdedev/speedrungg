@@ -1,6 +1,6 @@
 ---
 name: loaf-instrumentation
-description: "Use for production performance monitoring with Long Animation Frames API. Practical patterns for jank detection and production sampling."
+description: "Use for production performance monitoring with the Long Animation Frames API — practical patterns for jank detection and production sampling. Skip when the question is theoretical LoAF API understanding (defer to long-animation-frames), render-pipeline causes of jank (defer to critical-rendering-path), or RAIL budget thresholds (defer to rail-model)."
 ---
 
 # Long Animation Frames (LoAF) — Instrumentation

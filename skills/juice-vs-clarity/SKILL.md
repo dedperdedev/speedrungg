@@ -1,6 +1,6 @@
 ---
 name: juice-vs-clarity
-description: "Use when adding visual/audio juice. The clarity tradeoff: 3-tier juice budget, mute test, reduce-motion respect."
+description: "Use when adding visual/audio juice — the clarity tradeoff: 3-tier juice budget, mute test, reduce-motion respect. Skip when the work is the catalogue of juice patterns themselves (defer to juice-it-or-lose-it) or general HUD readability principles (defer to refactoring-ui-principles)."
 ---
 
 # Juice vs Clarity — The Tension

@@ -1,6 +1,6 @@
 ---
 name: wcag-game-checklist
-description: "Use when implementing or auditing accessibility. WCAG 2.1 AA mapped to game patterns: contrast, keyboard, motion, audio, customization."
+description: "Use when implementing or auditing accessibility — WCAG 2.1 AA mapped to game patterns: contrast, keyboard, motion, audio, customization. Skip when the question is choosing a tier (defer to gameaccessibilityguidelines), EU/CVAA regulatory scope (defer to eaa-baseline / cvaa-communications), or canvas screen-reader patterns (defer to screen-reader-game-patterns)."
 ---
 
 # WCAG 2.1 AA — Game Checklist

@@ -1,6 +1,6 @@
 ---
 name: owasp-top-10-for-games
-description: "Use during security review or threat modeling. OWASP Top 10 adapted for web games: client trust, secrets in bundle, anti-cheat, supply chain."
+description: "Use during security review or threat modeling — OWASP Top 10 adapted for web games: client trust, secrets in bundle, anti-cheat, supply chain. Skip when the work is npm dependency hygiene specifically (defer to web-game-supply-chain) or multiplayer/leaderboard protocol design (defer to secure-multiplayer-protocol)."
 ---
 
 # OWASP Top 10 — Adapted for Web Games

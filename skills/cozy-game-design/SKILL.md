@@ -1,6 +1,6 @@
 ---
 name: cozy-game-design
-description: "Use when designing or reviewing a cozy game. Project Horseshoe 3-pillar framework (Safety/Abundance/Softness) with cross-cultural notes."
+description: "Use when designing or reviewing a cozy game — Project Horseshoe 3-pillar framework (Safety/Abundance/Softness) with cross-cultural notes. Skip when the genre is competitive/challenging (defer to difficulty-and-mercy or flow-state-design) or the question is broader audience segmentation (defer to bartle-types-revisited or four-types-of-fun)."
 ---
 
 # Cozy Game Design — Safety, Abundance, Softness

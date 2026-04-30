@@ -1,6 +1,6 @@
 ---
 name: statistical-floor
-description: "Use when interpreting research findings or survey data. Sample size, effect size vs p-value, multiple comparisons, A/B testing rules."
+description: "Use when interpreting research findings or survey data — sample size, effect size vs p-value, multiple comparisons, A/B testing rules. Skip when the bias is an absent-dropouts sample (defer to survivorship-bias), the work is qualitative coding of transcripts (defer to thematic-coding), or running the interview itself (defer to interview-protocols)."
 ---
 
 # Statistical Floor — What Every Researcher Must Know

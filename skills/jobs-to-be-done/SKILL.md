@@ -1,6 +1,6 @@
 ---
 name: jobs-to-be-done
-description: "Use when defining audience or game positioning. Christensen JTBD applied to games: when [situation], I want to [motivation], so I can [outcome]."
+description: "Use when defining audience or game positioning — Christensen JTBD applied to games: when [situation], I want to [motivation], so I can [outcome]. Skip when the work is store-page / market positioning copy (defer to positioning-frameworks), play-style segmentation (defer to bartle-types-revisited), or the kind-of-fun delivered (defer to four-types-of-fun)."
 ---
 
 # Jobs To Be Done — For Games

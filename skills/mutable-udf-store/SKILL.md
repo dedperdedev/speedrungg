@@ -1,6 +1,6 @@
 ---
 name: mutable-udf-store
-description: "Use when implementing state management. Single mutable store + event log + replay pattern for deterministic, multiplayer-ready games."
+description: "Use when implementing state management — single mutable store + event log + replay pattern for deterministic, multiplayer-ready games. Skip when the work is reducer purity discipline (defer to pure-reducers), the simulation/render loop itself (defer to deterministic-game-loop), or networked authority (defer to secure-multiplayer-protocol)."
 ---
 
 # Mutable UDF Store + Event Log

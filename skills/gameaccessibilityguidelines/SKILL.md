@@ -1,6 +1,6 @@
 ---
 name: gameaccessibilityguidelines
-description: "Use when targeting accessibility tier (Basic/Intermediate/Advanced). Game-industry-standard 3-tier framework with selection guide by project type."
+description: "Use when targeting an accessibility tier (Basic/Intermediate/Advanced) — game-industry-standard 3-tier framework with selection guide by project type. Skip when the work is concrete WCAG mapping (defer to wcag-game-checklist), EU/CVAA regulatory scope (defer to eaa-baseline / cvaa-communications), or canvas screen-reader patterns (defer to screen-reader-game-patterns)."
 ---
 
 # Game Accessibility Guidelines — Three Tiers

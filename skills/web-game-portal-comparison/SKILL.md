@@ -1,6 +1,6 @@
 ---
 name: web-game-portal-comparison
-description: "Use when choosing distribution channel for a web game. Honest comparison: Poki, CrazyGames, Y8, Newgrounds, itch.io, aggregators."
+description: "Use when choosing distribution channel for a web game — honest comparison of Poki, CrazyGames, Y8, Newgrounds, itch.io, aggregators. Skip when Poki is already chosen and the question is off-platform traffic (defer to direct-traffic-arbitrage), portal conversion KPI (defer to gameplay-conversion-ratio), or payout risk (defer to payment-processor-risk)."
 ---
 
 # Web Game Portal Comparison (2025–2026)

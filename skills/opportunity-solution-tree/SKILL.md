@@ -1,6 +1,6 @@
 ---
 name: opportunity-solution-tree
-description: "Use when planning quarter-level work. Teresa Torres: outcome → opportunities → solutions → experiments. Prevents feature-factory thinking."
+description: "Use when planning quarter-level work — Teresa Torres outcome → opportunities → solutions → experiments, preventing feature-factory thinking. Skip when the work is sprint-level backlog scoring (defer to rice-scoring), audience job framing (defer to jobs-to-be-done), or interpreting experiment results (defer to statistical-floor)."
 ---
 
 # Opportunity Solution Tree

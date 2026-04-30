@@ -1,6 +1,6 @@
 ---
 name: first-30-seconds-rule
-description: "Use when designing game opening / onboarding. The web-game opening seconds discipline: visible identity by 5s, interactive by 10s, success moment by 30s."
+description: "Use when designing game opening / onboarding — the web-game opening-seconds discipline: visible identity by 5s, interactive by 10s, success moment by 30s. Skip when the question is loading-screen UX itself (defer to loading-screens-that-work), portal conversion KPI (defer to gameplay-conversion-ratio), or tutorial-load reduction (defer to cognitive-load-game)."
 ---
 
 # First 30 Seconds Rule

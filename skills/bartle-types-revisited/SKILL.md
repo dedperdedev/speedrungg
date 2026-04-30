@@ -1,6 +1,6 @@
 ---
 name: bartle-types-revisited
-description: "Use when defining audience segments by play motivation. Bartle MUD taxonomy with critique and modern 6-type expansion (Achiever/Explorer/Socializer/Competitor/Creator/Cozy)."
+description: "Use when defining audience segments by play motivation — Bartle MUD taxonomy with critique and modern 6-type expansion (Achiever/Explorer/Socializer/Competitor/Creator/Cozy). Skip when the question is what kind of fun the experience delivers (defer to four-types-of-fun) or audience job-to-be-done framing (defer to jobs-to-be-done)."
 ---
 
 # Bartle Types — Revisited

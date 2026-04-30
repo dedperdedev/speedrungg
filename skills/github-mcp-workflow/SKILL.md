@@ -1,6 +1,6 @@
 ---
 name: github-mcp-workflow
-description: "Use when integrating with GitHub via MCP for issues, PR review, releases. Most universal integration; simplest task management option (Issues + Milestones)."
+description: "Use when integrating with GitHub via MCP for issues, PR review, and releases — the most universal integration and simplest task management (Issues + Milestones). Skip when task tracking lives in ClickUp (defer to clickup-mcp-workflow), Notion (defer to notion-mcp-workflow), or design notes/zettelkasten (defer to obsidian-mcp-workflow)."
 ---
 
 # GitHub MCP Workflow

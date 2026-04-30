@@ -1,6 +1,6 @@
 ---
 name: eaa-baseline
-description: "Use when reviewing accessibility for EU distribution. European Accessibility Act baseline; micro-enterprise exemption guidance."
+description: "Use when reviewing accessibility for EU distribution — European Accessibility Act baseline and micro-enterprise exemption guidance. Skip when the work is concrete WCAG/A11y implementation (defer to wcag-game-checklist or gameaccessibilityguidelines), chat-feature compliance (defer to cvaa-communications), or canvas screen-reader patterns (defer to screen-reader-game-patterns)."
 ---
 
 # European Accessibility Act — Baseline

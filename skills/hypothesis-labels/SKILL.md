@@ -1,6 +1,6 @@
 ---
 name: hypothesis-labels
-description: "Use when deciding which source label to apply to a claim. Decision flowchart for [USER]/[EVIDENCE]/[HYPOTHESIS]/[PATTERN]/[UNKNOWN]."
+description: "Use when deciding which source label to apply to a claim — decision flowchart for [USER]/[EVIDENCE]/[HYPOTHESIS]/[PATTERN]/[UNKNOWN]. Skip when the question is overall confidence ladder ([CONFIRMED]/[LIKELY]/[UNCERTAIN]) (defer to calibration-vocabulary) or token-economy output rules (defer to token-economy-policy)."
 ---
 
 # Hypothesis Labels — When to Use Which

@@ -1,6 +1,6 @@
 ---
 name: deterministic-game-loop
-description: "Use when implementing the game loop. Fixed-timestep simulation with variable-rate render; spiral-of-death prevention; replay-able pattern."
+description: "Use when implementing the game loop — fixed-timestep simulation with variable-rate render, spiral-of-death prevention, replay-able pattern. Skip when the work is reducer purity (defer to pure-reducers), state-store architecture (defer to mutable-udf-store), or networked authority (defer to secure-multiplayer-protocol)."
 ---
 
 # Deterministic Game Loop

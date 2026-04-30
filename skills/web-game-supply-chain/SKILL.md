@@ -1,6 +1,6 @@
 ---
 name: web-game-supply-chain
-description: "Use when adding npm dependencies or auditing supply chain. Lockfile, audit, Dependabot, SRI, CSP. Critical given 2024-2025 npm attack patterns."
+description: "Use when adding npm dependencies or auditing supply chain — lockfile, audit, Dependabot, SRI, CSP, critical given 2024-2025 npm attack patterns. Skip when the work is broader threat modelling (defer to owasp-top-10-for-games) or multiplayer/leaderboard protocol design (defer to secure-multiplayer-protocol)."
 ---
 
 # Web Game Supply Chain Hygiene

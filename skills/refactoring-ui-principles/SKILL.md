@@ -1,6 +1,6 @@
 ---
 name: refactoring-ui-principles
-description: "Use when designing UI / HUD. Wathan + Schoger principles: hierarchy via weight not size, grayscale for importance, whitespace as weapon."
+description: "Use when designing UI / HUD — Wathan + Schoger principles: hierarchy via weight not size, grayscale for importance, whitespace as weapon. Skip when the work is feedback/juice polish (defer to juice-it-or-lose-it / juice-vs-clarity), menu/scene transitions (defer to view-transitions-game-ui), or design-token extraction from Figma (defer to figma-mcp-workflow)."
 ---
 
 # Refactoring UI — Key Principles

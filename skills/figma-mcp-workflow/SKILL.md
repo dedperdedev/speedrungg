@@ -1,6 +1,6 @@
 ---
 name: figma-mcp-workflow
-description: "Use when integrating with Figma via MCP for design-to-code workflows. Token extraction, layout reference, what NOT to auto-generate."
+description: "Use when integrating with Figma via MCP for design-to-code workflows — token extraction, layout reference, what NOT to auto-generate. Skip when the work is UI critique principles independent of tooling (defer to refactoring-ui-principles) or task tracking sync (defer to clickup-mcp-workflow / notion-mcp-workflow / github-mcp-workflow)."
 ---
 
 # Figma MCP Workflow

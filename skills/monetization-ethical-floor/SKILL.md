@@ -1,6 +1,6 @@
 ---
 name: monetization-ethical-floor
-description: "Use when discussing monetization, IAP, or business model. Hard refusals (loot boxes, P2W, dark patterns) and allowed alternatives."
+description: "Use when discussing monetization, IAP, or business model — studio hard refusals (loot boxes, P2W, dark patterns) and allowed alternatives. Skip when the work is EU regulatory horizon (defer to digital-fairness-act-watch), bias-based persuasion theory (defer to behavioral-economics-for-games), or payment-processor risk diversification (defer to payment-processor-risk)."
 ---
 
 # Monetization Ethical Floor

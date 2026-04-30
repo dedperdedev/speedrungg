@@ -1,6 +1,6 @@
 ---
 name: systems-thinking-loops
-description: "Use when designing game systems with feedback loops. Lewin/Forrester/Meadows applied to games — stocks, flows, reinforcing/balancing loops, common system failure modes."
+description: "Use when designing game systems with feedback loops — Lewin/Forrester/Meadows applied to games: stocks, flows, reinforcing/balancing loops, common failure modes. Skip when the system is a virtual economy specifically (defer to economy-source-sink), a growth curve (defer to progression-curves), or a single mechanic critique (defer to mda-framework / lenses-summary)."
 ---
 
 # Systems Thinking — Loops, Stocks, Flows

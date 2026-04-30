@@ -1,6 +1,6 @@
 ---
 name: four-types-of-fun
-description: "Use when defining what kind of fun the game serves. Lazzaro 4 Keys to Fun (Hard/Easy/People/Serious) for creative direction and audience targeting."
+description: "Use when defining what kind of fun the game serves — Lazzaro 4 Keys to Fun (Hard/Easy/People/Serious) for creative direction. Skip when the question is player-motivation segmentation (defer to bartle-types-revisited), JTBD audience framing (defer to jobs-to-be-done), or mechanic→aesthetic mapping (defer to mda-framework)."
 ---
 
 # Four Types of Fun — Hard / Easy / People / Serious

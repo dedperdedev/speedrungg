@@ -1,6 +1,6 @@
 ---
 name: cvaa-communications
-description: "Use when implementing chat features (text/voice/video). CVAA US compliance: visual indicators, mute/block, captions, FCC 2025 guidance."
+description: "Use when implementing chat features (text/voice/video) — CVAA US compliance: visual indicators, mute/block, captions, FCC 2025 guidance. Skip when the work is general accessibility audit (defer to wcag-game-checklist or gameaccessibilityguidelines), EU accessibility scope (defer to eaa-baseline), or screen-reader patterns for canvas (defer to screen-reader-game-patterns)."
 ---
 
 # CVAA — Communications in Video Games

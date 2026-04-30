@@ -1,6 +1,6 @@
 ---
 name: long-animation-frames
-description: "Use for theoretical understanding of LoAF API. For instrumentation, prefer loaf-instrumentation.md."
+description: "Use for theoretical understanding of the LoAF API — what it measures, how scripts/styles/layout attribute. Skip when the work is concrete production instrumentation (defer to loaf-instrumentation), layout-thrash diagnosis (defer to critical-rendering-path), or general perf budgets (defer to rail-model)."
 ---
 
 # Long Animation Frames API (LoAF)

@@ -1,6 +1,6 @@
 ---
 name: web-audio-procedural
-description: "Use when implementing SFX procedurally with Web Audio API. Recipes for blip/coin/jump/boom; iOS audio unlock; ZzFX option."
+description: "Use when implementing SFX procedurally with Web Audio API — blip/coin/jump/boom recipes, iOS audio unlock, ZzFX option. Skip when the work is recorded-audio mixing or music composition (defer to dynamic-music-systems) or DSP on the audio thread (defer to audio-worklet-modern)."
 ---
 
 # Web Audio — Procedural SFX Patterns

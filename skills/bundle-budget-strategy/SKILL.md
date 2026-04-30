@@ -1,6 +1,6 @@
 ---
 name: bundle-budget-strategy
-description: "Use when reviewing bundle size or load time. 2026 numbers: ≤2MB initial for Poki, ≤2s TTI on mobile, per-engine baselines, dep audit checklist."
+description: "Use when reviewing bundle size or load-time targets — 2026 numbers (≤2MB initial for Poki, ≤2s TTI on mobile), per-engine baselines, dep audit checklist. Skip when the work is broader runtime perf budgets (defer to rail-model), render-pipeline jank (defer to critical-rendering-path), or loading-screen UX (defer to loading-screens-that-work)."
 ---
 
 # Bundle Budget Strategy

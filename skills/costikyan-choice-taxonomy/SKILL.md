@@ -1,6 +1,6 @@
 ---
 name: costikyan-choice-taxonomy
-description: "Use when designing player choices. Costikyan anatomy of a meaningful choice: 4 criteria (Awareness/Information/Consequence/Reminder) and 6 choice types."
+description: "Use when designing player choices — Costikyan anatomy of a meaningful choice: 4 criteria (Awareness/Information/Consequence/Reminder) and 6 choice types. Skip when the choices are narrative branching structures (defer to storylets-quality-based-narrative) or general mechanic critique (defer to mda-framework or lenses-summary)."
 ---
 
 # Anatomy of a Meaningful Choice

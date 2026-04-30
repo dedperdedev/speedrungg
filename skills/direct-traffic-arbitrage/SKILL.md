@@ -1,6 +1,6 @@
 ---
 name: direct-traffic-arbitrage
-description: "Use when planning Poki distribution. Off-platform traffic generates 100% revenue; landing page + social + press strategies for arbitrage."
+description: "Use when planning Poki distribution and off-platform traffic that generates 100% revenue — landing page, social, and press strategies for arbitrage. Skip when the question is which portal to ship on (defer to web-game-portal-comparison), portal-fit conversion metric (defer to gameplay-conversion-ratio), or store-page positioning (defer to positioning-frameworks)."
 ---
 
 # Direct Traffic Arbitrage

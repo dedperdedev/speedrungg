@@ -1,6 +1,6 @@
 ---
 name: screen-reader-game-patterns
-description: "Use when adding screen reader support to a canvas-based game. Live regions, hidden DOM mirror, turn-based vs real-time patterns."
+description: "Use when adding screen-reader support to a canvas-based game — live regions, hidden DOM mirror, turn-based vs real-time patterns. Skip when the work is broader WCAG conformance (defer to wcag-game-checklist), tier selection (defer to gameaccessibilityguidelines), or chat-feature compliance (defer to cvaa-communications)."
 ---
 
 # Screen Reader Patterns for Games

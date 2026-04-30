@@ -1,6 +1,6 @@
 ---
 name: storylets-quality-based-narrative
-description: "Use when designing branching narrative. Storylets and QBN architecture beats branching trees for replay value and post-launch content adds."
+description: "Use when designing branching narrative — storylets and QBN architecture beat branching trees for replay value and post-launch content adds. Skip when the focus is moment-to-moment choice anatomy (defer to costikyan-choice-taxonomy) or general mechanic→aesthetic critique (defer to mda-framework / lenses-summary)."
 ---
 
 # Storylets and Quality-Based Narrative (QBN)

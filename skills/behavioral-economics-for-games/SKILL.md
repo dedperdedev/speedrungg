@@ -1,6 +1,6 @@
 ---
 name: behavioral-economics-for-games
-description: "Use when discussing player psychology, persuasion, or monetization design. Cognitive biases (anchoring, loss aversion, etc.) with ethical/exploitative line."
+description: "Use when discussing player psychology, persuasion, or monetization design — cognitive biases (anchoring, loss aversion, etc.) with the ethical/exploitative line. Skip when the question is concrete monetization hard-rules (defer to monetization-ethical-floor) or EU regulatory constraints (defer to digital-fairness-act-watch)."
 ---
 
 # Behavioral Economics for Games — With Ethical Guardrails

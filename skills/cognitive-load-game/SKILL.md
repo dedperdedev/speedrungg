@@ -1,6 +1,6 @@
 ---
 name: cognitive-load-game
-description: "Use when diagnosing UX confusion or designing tutorials. Sweller 3-load model (intrinsic/extraneous/germane) applied to games."
+description: "Use when diagnosing UX confusion or designing tutorials — Sweller 3-load model (intrinsic/extraneous/germane) applied to games. Skip when the question is challenge calibration / pacing (defer to flow-state-design) or visual-hierarchy clutter on the HUD (defer to refactoring-ui-principles or juice-vs-clarity)."
 ---
 
 # Cognitive Load — Applied to Games

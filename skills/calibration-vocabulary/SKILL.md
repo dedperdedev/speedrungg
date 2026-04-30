@@ -1,6 +1,6 @@
 ---
 name: calibration-vocabulary
-description: "Use when an agent needs to label a claim with confidence ([CONFIRMED]/[LIKELY]/[UNCERTAIN]) and source ([USER]/[EVIDENCE]/[HYPOTHESIS]/[PATTERN]/[UNKNOWN]). The 3-level confidence + source-label system that prevents bluffing."
+description: "Use when an agent needs to label a claim with confidence ([CONFIRMED]/[LIKELY]/[UNCERTAIN]) and source ([USER]/[EVIDENCE]/[HYPOTHESIS]/[PATTERN]/[UNKNOWN]) — the 3-level confidence plus source-label system that prevents bluffing. Skip when the choice is purely which source label to apply (defer to hypothesis-labels) or token-economy output rules (defer to token-economy-policy)."
 ---
 
 # Calibration Vocabulary

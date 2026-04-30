@@ -1,6 +1,6 @@
 ---
 name: gameplay-conversion-ratio
-description: "Use when optimizing for portal distribution (Poki, CrazyGames). 73% target metric: load time + first screen + first 30 seconds + tech basics."
+description: "Use when optimizing for portal distribution (Poki, CrazyGames) — 73% target metric driven by load time, first screen, first 30 seconds, tech basics. Skip when the work is the opening-seconds design itself (defer to first-30-seconds-rule), bundle/load budgets (defer to bundle-budget-strategy), or portal selection (defer to web-game-portal-comparison)."
 ---
 
 # Gameplay Conversion Ratio

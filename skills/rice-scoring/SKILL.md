@@ -1,6 +1,6 @@
 ---
 name: rice-scoring
-description: "Use during /sprint-plan or backlog prioritization. Reach × Impact × Confidence ÷ Effort with worked example."
+description: "Use during /sprint-plan or backlog prioritization — Reach × Impact × Confidence ÷ Effort with worked example. Skip when the work is quarter-level outcome planning (defer to opportunity-solution-tree) or interpreting experiment / sample data (defer to statistical-floor)."
 ---
 
 # RICE Scoring — Prioritization Framework

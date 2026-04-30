@@ -1,6 +1,6 @@
 ---
 name: loading-screens-that-work
-description: "Use when implementing loading screens. Honest progress bars, front-loaded visible work, productive loading patterns."
+description: "Use when implementing loading screens — honest progress bars, front-loaded visible work, productive loading patterns. Skip when the work is overall opening-seconds design (defer to first-30-seconds-rule), bundle/load-time targets (defer to bundle-budget-strategy), or render perf budgets (defer to rail-model)."
 ---
 
 # Loading Screens That Work

@@ -1,6 +1,6 @@
 ---
 name: survivorship-bias
-description: "Use when interpreting any sample data. Your sample contains survivors; the dropouts are invisible and informative. Defenses: track funnel."
+description: "Use when interpreting any sample data — your sample contains survivors and the dropouts are invisible and informative; track the funnel. Skip when the question is general statistical interpretation (defer to statistical-floor), qualitative coding of transcripts (defer to thematic-coding), or running the interview itself (defer to interview-protocols)."
 ---
 
 # Survivorship Bias

@@ -1,6 +1,6 @@
 ---
 name: positioning-frameworks
-description: "Use when defining game positioning, store page, or marketing. Trout/Lochhead frameworks; 7-word pitch test; 2025-2026 marketing reality (TikTok collapse)."
+description: "Use when defining game positioning, store page, or marketing copy — Trout/Lochhead frameworks, 7-word pitch test, 2025-2026 marketing reality (TikTok collapse). Skip when the work is audience-job framing (defer to jobs-to-be-done), play-style segmentation (defer to bartle-types-revisited), or off-platform traffic acquisition tactics (defer to direct-traffic-arbitrage)."
 ---
 
 # Positioning Frameworks — For Indie Games
