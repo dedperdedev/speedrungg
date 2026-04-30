@@ -11,8 +11,8 @@
     {
       "name": "speedrungg",
       "source": {
-        "source": "github",
-        "repo": "your-org/speedrungg"
+        "source": "git",
+        "repo": "dedperdedev/speedrungg"
       },
       "version": "1.0.0",
       "description": "Two-studio AI team for browser game development. 44 agents, 62 skills, 26 commands, 9 hooks, 8 MCP integrations.",
@@ -24,7 +24,7 @@
         "multi-agent",
         "speedrun"
       ],
-      "homepage": "https://github.com/your-org/speedrungg"
+      "homepage": "https://github.com/dedperdedev/speedrungg"
     }
   ]
 }
